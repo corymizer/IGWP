@@ -77,18 +77,40 @@ body {
   padding-bottom: 10px;
 }
 
-@media (max-width: 1000px) {
+/* Photo scaling for tablets */
+
+@media (max-width:768px) {
   .inline-photo1 {
-    max-width: 450px;
+    max-width: 400px;
     height: auto;
     display: block;
     margin: auto;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width:768px) {
   .inline-photo2 {
-    max-width: 450px;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Photo scaling for phones */
+
+@media (max-width:414px) {
+  .inline-photo1 {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width:414px) {
+  .inline-photo2 {
+    max-width: 300px;
     height: auto;
     display: block;
     margin: auto;
